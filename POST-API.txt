@@ -1,0 +1,443 @@
+AEROPORTOS: 4
+AVIOES: 8 (2 por companhia)
+BAGAGENS: 7
+COMPANHIAS: 4
+FUNCIONARIOS: 8
+PAGAMENTOS: 3
+PASSAGEIROS: 7
+PASSAGENS: 4
+PORTOES: 12 (3 por aeroporto)
+VOOS: 4
+
+
+================Aeroportos
+[
+  {
+    "id": 1,
+    "nome": "Aeroporto Afonso Pena",
+    "cidade": "Curitiba"
+  },
+  {
+    "id": 2,
+    "nome": "Aeroporto de Guarulhos",
+    "cidade": "São Paulo"
+  },
+  {
+    "id": 3,
+    "nome": "Aeroporto dos Estados Unidos",
+    "cidade": "New York"
+  },
+  {
+    "id": 4,
+    "nome": "Aeroporto de Portugal",
+    "cidade": "Lisboa"
+  }
+]
+================ Avioes
+[
+  {
+    "id": 1,
+    "modelo": "Boeing-1",
+    "companhiaAereaId": 1,
+    "companhiaAerea": null
+  },
+  {
+    "id": 2,
+    "modelo": "Boeing-1",
+    "companhiaAereaId": 1,
+    "companhiaAerea": null
+  },
+  {
+    "id": 3,
+    "modelo": "Boeing-1",
+    "companhiaAereaId": 2,
+    "companhiaAerea": null
+  },
+  {
+    "id": 4,
+    "modelo": "Boeing-1",
+    "companhiaAereaId": 2,
+    "companhiaAerea": null
+  },
+  {
+    "id": 5,
+    "modelo": "Boeing-3",
+    "companhiaAereaId": 3,
+    "companhiaAerea": null
+  },
+  {
+    "id": 6,
+    "modelo": "Boeing-3",
+    "companhiaAereaId": 3,
+    "companhiaAerea": null
+  },
+  {
+    "id": 7,
+    "modelo": "Boeing-4",
+    "companhiaAereaId": 4,
+    "companhiaAerea": null
+  },
+  {
+    "id": 8,
+    "modelo": "Boeing-4",
+    "companhiaAereaId": 4,
+    "companhiaAerea": null
+  }
+]
+================ Bagagens
+[
+  {
+    "id": 1,
+    "peso": 5,
+    "passageiro": null,
+    "passageiroId": 1
+  },
+  {
+    "id": 2,
+    "peso": 8,
+    "passageiro": null,
+    "passageiroId": 2
+  },
+  {
+    "id": 3,
+    "peso": 4,
+    "passageiro": null,
+    "passageiroId": 3
+  },
+  {
+    "id": 4,
+    "peso": 4.5,
+    "passageiro": null,
+    "passageiroId": 4
+  },
+  {
+    "id": 5,
+    "peso": 100,
+    "passageiro": null,
+    "passageiroId": 5
+  },
+  {
+    "id": 6,
+    "peso": 2,
+    "passageiro": null,
+    "passageiroId": 6
+  },
+  {
+    "id": 7,
+    "peso": 3.76,
+    "passageiro": null,
+    "passageiroId": 7
+  }
+]
+================ Companhias
+[
+  {
+    "id": 1,
+    "nome": "Azul Airlines",
+    "pais": "Brasil"
+  },
+  {
+    "id": 2,
+    "nome": "Latam Airlines",
+    "pais": "Brasil"
+  },
+  {
+    "id": 3,
+    "nome": "Gol Airlines",
+    "pais": "Brasil"
+  },
+  {
+    "id": 4,
+    "nome": "Evandro Airlines",
+    "pais": "Brasil"
+  }
+]
+================ Funcionarios
+[
+  {
+    "id": 1,
+    "nome": "Seu Henrique",
+    "cargo": "Piloto",
+    "aeroporto": null,
+    "aeroportoId": 1
+  },
+  {
+    "id": 2,
+    "nome": "Pequena Senhorita",
+    "cargo": "Comissaria",
+    "aeroporto": null,
+    "aeroportoId": 1
+  },
+  {
+    "id": 3,
+    "nome": "Tommy",
+    "cargo": "Piloto",
+    "aeroporto": null,
+    "aeroportoId": 2
+  },
+  {
+    "id": 4,
+    "nome": "Amora",
+    "cargo": "Comissaria",
+    "aeroporto": null,
+    "aeroportoId": 2
+  },
+  {
+    "id": 5,
+    "nome": "Jorge",
+    "cargo": "Piloto",
+    "aeroporto": null,
+    "aeroportoId": 3
+  },
+  {
+    "id": 6,
+    "nome": "Miguel",
+    "cargo": "Comissário",
+    "aeroporto": null,
+    "aeroportoId": 3
+  },
+  {
+    "id": 7,
+    "nome": "Mathew",
+    "cargo": "Piloto",
+    "aeroporto": null,
+    "aeroportoId": 4
+  },
+  {
+    "id": 8,
+    "nome": "Angela",
+    "cargo": "Comissária",
+    "aeroporto": null,
+    "aeroportoId": 4
+  }
+]
+================ Passageiros
+[
+  {
+    "id": 1,
+    "nome": "Luiz",
+    "sobrenome": "Redig"
+  },
+  {
+    "id": 2,
+    "nome": "Babi",
+    "sobrenome": "Woitas"
+  },
+  {
+    "id": 3,
+    "nome": "Berna",
+    "sobrenome": "Alexandre"
+  },
+  {
+    "id": 4,
+    "nome": "Vitor",
+    "sobrenome": "Silva"
+  },
+  {
+    "id": 5,
+    "nome": "Vini",
+    "sobrenome": "Sieben"
+  },
+  {
+    "id": 6,
+    "nome": "Vitor",
+    "sobrenome": "Machado"
+  },
+  {
+    "id": 7,
+    "nome": "Vitor",
+    "sobrenome": "Gabriel"
+  }
+]
+==================== PORTOES
+
+[
+  {
+    "id": 1,
+    "codigo": "A",
+    "aeroporto": null,
+    "aeroportoId": 1
+  },
+  {
+    "id": 2,
+    "codigo": "B",
+    "aeroporto": null,
+    "aeroportoId": 1
+  },
+  {
+    "id": 3,
+    "codigo": "C",
+    "aeroporto": null,
+    "aeroportoId": 1
+  },
+  {
+    "id": 4,
+    "codigo": "A",
+    "aeroporto": null,
+    "aeroportoId": 2
+  },
+  {
+    "id": 5,
+    "codigo": "B",
+    "aeroporto": null,
+    "aeroportoId": 2
+  },
+  {
+    "id": 6,
+    "codigo": "C",
+    "aeroporto": null,
+    "aeroportoId": 2
+  },
+  {
+    "id": 7,
+    "codigo": "A",
+    "aeroporto": null,
+    "aeroportoId": 3
+  },
+  {
+    "id": 8,
+    "codigo": "B",
+    "aeroporto": null,
+    "aeroportoId": 3
+  },
+  {
+    "id": 9,
+    "codigo": "C",
+    "aeroporto": null,
+    "aeroportoId": 3
+  },
+  {
+    "id": 10,
+    "codigo": "A",
+    "aeroporto": null,
+    "aeroportoId": 4
+  },
+  {
+    "id": 11,
+    "codigo": "B",
+    "aeroporto": null,
+    "aeroportoId": 4
+  },
+  {
+    "id": 12,
+    "codigo": "C",
+    "aeroporto": null,
+    "aeroportoId": 4
+  }
+]
+===================== Voos
+[
+  {
+    "id": 1,
+    "numero": "ABC001",
+    "aviao": null,
+    "aviaoId": 1,
+    "origemAeroporto": null,
+    "origemAeroportoId": 3,
+    "destinoAeroporto": null,
+    "destinoAeroportoId": 2
+  },
+  {
+    "id": 2,
+    "numero": "ABC002",
+    "aviao": null,
+    "aviaoId": 2,
+    "origemAeroporto": null,
+    "origemAeroportoId": 1,
+    "destinoAeroporto": null,
+    "destinoAeroportoId": 2
+  },
+  {
+    "id": 3,
+    "numero": "ABC003",
+    "aviao": null,
+    "aviaoId": 4,
+    "origemAeroporto": null,
+    "origemAeroportoId": 3,
+    "destinoAeroporto": null,
+    "destinoAeroportoId": 2
+  },
+  {
+    "id": 4,
+    "numero": "ABC004",
+    "aviao": null,
+    "aviaoId": 3,
+    "origemAeroporto": null,
+    "origemAeroportoId": 2,
+    "destinoAeroporto": null,
+    "destinoAeroportoId": 1
+  }
+]
+========================= Passagens
+
+[
+  {
+    "id": 1,
+    "classe": "VIP",
+    "preco": 10000,
+    "pagamento": null,
+    "pagamentoId": 1,
+    "portao": null,
+    "portaoId": 1,
+    "voo": null,
+    "vooId": 1,
+    "passageiro": null,
+    "passageiroId": 1
+  },
+  {
+    "id": 2,
+    "classe": "ECONOMICA",
+    "preco": 2000,
+    "pagamento": null,
+    "pagamentoId": 2,
+    "portao": null,
+    "portaoId": 1,
+    "voo": null,
+    "vooId": 1,
+    "passageiro": null,
+    "passageiroId": 2
+  },
+  {
+    "id": 3,
+    "classe": "ECONOMICA",
+    "preco": 2300,
+    "pagamento": null,
+    "pagamentoId": 2,
+    "portao": null,
+    "portaoId": 1,
+    "voo": null,
+    "vooId": 1,
+    "passageiro": null,
+    "passageiroId": 3
+  },
+  {
+    "id": 4,
+    "classe": "ECONOMICA",
+    "preco": 1900,
+    "pagamento": null,
+    "pagamentoId": 3,
+    "portao": null,
+    "portaoId": 1,
+    "voo": null,
+    "vooId": 1,
+    "passageiro": null,
+    "passageiroId": 4
+  }
+]
+
+==================== Pagamentos
+
+[
+  {
+    "id": 1,
+    "tipo": "Cartão de Crédito"
+  },
+  {
+    "id": 2,
+    "tipo": "Cartão de Débito"
+  },
+  {
+    "id": 3,
+    "tipo": "PIX"
+  }
+]
