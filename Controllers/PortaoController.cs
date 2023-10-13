@@ -70,6 +70,7 @@ public class PortaoController : ControllerBase
                     return BadRequest($"Aeroporto com ID {portao.AeroportoId} não encontrado.");
                 }
 
+                portao.Aeroporto = aeroporto;
                 _context.Portoes.Add(portao);
             }
 

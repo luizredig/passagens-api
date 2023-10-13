@@ -74,6 +74,7 @@ public class FuncionarioController : ControllerBase
                     return BadRequest($"Aeroporto com ID {funcionario.AeroportoId} não encontrado.");
                 }
 
+                funcionario.Aeroporto = aeroporto;
                 _context.Funcionarios.Add(funcionario);
             }
 

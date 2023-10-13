@@ -70,6 +70,7 @@ public class AviaoController : ControllerBase
                     return BadRequest($"Companhia com ID {aviao.CompanhiaAereaId} não encontrada.");
                 }
 
+                aviao.CompanhiaAerea = companhia;
                 _context.Avioes.Add(aviao);
             }
 

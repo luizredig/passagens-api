@@ -71,6 +71,7 @@ public class BagagemController : ControllerBase
                     return BadRequest($"Passageiro com ID {bagagem.PassageiroId} não encontrado.");
                 }
 
+                bagagem.Passageiro = passageiro;
                 _context.Bagagens.Add(bagagem);
             }
 
